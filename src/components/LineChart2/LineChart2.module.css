@@ -1,0 +1,22 @@
+.container {
+  width: 700px;
+  max-width: calc(95vw - 8rem);
+  box-shadow: 0px 0rem 2rem 0.1rem rgba(0, 0, 0, 0.2);
+  padding: 4rem 2rem 2rem;
+}
+
+.container > .top > h6 {
+  font-size: 2.5rem;
+  color: rgb(6, 6, 45);
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: 2.9rem;
+  margin-bottom: 3rem;
+}
+
+.container > .bottom {
+  overflow-x: auto;
+}
+.container > .bottom > .bottom {
+  width: 660px;
+}

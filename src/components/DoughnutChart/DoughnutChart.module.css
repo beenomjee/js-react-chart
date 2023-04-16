@@ -1,0 +1,60 @@
+.container {
+  width: 300px;
+  max-width: calc(95vw - 8rem);
+
+  box-shadow: 0px 0rem 2rem 0.1rem rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.container > .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.container > .top > .left {
+  flex: 1;
+}
+
+.container > .top > .left > h6 {
+  font-size: 2rem;
+  color: rgb(6, 6, 45);
+  white-space: nowrap;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+.container > .top > .left > span {
+  font-size: 4rem;
+  color: #f1d379;
+  white-space: nowrap;
+  font-weight: 300;
+  line-height: 4rem;
+}
+
+.container > .top > .right {
+  flex: 1;
+  padding-top: 1rem;
+}
+
+.container > .bottom {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.container > .bottom h6 {
+  font-size: 2rem;
+  color: rgb(6, 6, 45);
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.container > .bottom span {
+  font-size: 2.3rem;
+  color: rgb(6, 6, 45);
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
